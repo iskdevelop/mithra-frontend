@@ -1,0 +1,3 @@
+# Mithra Front End
+
+init
