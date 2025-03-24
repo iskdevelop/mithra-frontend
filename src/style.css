@@ -155,21 +155,61 @@
     --border-subtle-01-bottom-left-right: 0px 1px 1px 1px solid var(--color-nuk-gray-20);
 
     /* Border Subtle 02 */
-    --border-subtle-02-all: 1px solid var(--color-nuk-gray-50);
-    --border-subtle-02-top: 1px 0px 0px 0px solid var(--color-nuk-gray-50);
-    --border-subtle-02-bottom: 0px 0px 1px 0px solid var(--color-nuk-gray-50);
-    --border-subtle-02-left: 0px 0px 0px 1px solid var(--color-nuk-gray-50);
-    --border-subtle-02-right: 0px 1px 0px 0px solid var(--color-nuk-gray-50);
-    --border-subtle-02-top-bottom: 1px 0px 1px 0px solid var(--color-nuk-gray-50);
-    --border-subtle-02-left-right: 0px 1px 0px 1px solid var(--color-nuk-gray-50);
-    --border-subtle-02-top-left: 1px 0px 0px 1px solid var(--color-nuk-gray-50);
-    --border-subtle-02-top-right: 1px 1px 0px 0px solid var(--color-nuk-gray-50);
-    --border-subtle-02-bottom-left: 0px 0px 1px 1px solid var(--color-nuk-gray-50);
-    --border-subtle-02-bottom-right: 0px 1px 1px 0px solid var(--color-nuk-gray-50);
-    --border-subtle-02-top-bottom-left: 1px 0px 1px 1px solid var(--color-nuk-gray-50);
-    --border-subtle-02-top-bottom-right: 1px 1px 1px 0px solid var(--color-nuk-gray-50);
-    --border-subtle-02-top-left-right: 1px 1px 0px 1px solid var(--color-nuk-gray-50);
-    --border-subtle-02-bottom-left-right: 0px 1px 1px 1px solid var(--color-nuk-gray-50);
+    --border-subtle-02-all: 2px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top: 2px 0px 0px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-bottom: 0px 0px 2px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-left: 0px 0px 0px 2px solid var(--color-nuk-gray-50);
+    --border-subtle-02-right: 0px 2px 0px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-bottom: 2px 0px 2px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-left-right: 0px 2px 0px 2px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-left: 2px 0px 0px 2px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-right: 2px 2px 0px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-bottom-left: 0px 0px 2px 2px solid var(--color-nuk-gray-50);
+    --border-subtle-02-bottom-right: 0px 2px 2px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-bottom-left: 2px 0px 2px 2px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-bottom-right: 2px 2px 2px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-left-right: 2px 2px 0px 2px solid var(--color-nuk-gray-50);
+    --border-subtle-02-bottom-left-right: 0px 2px 2px 2px solid var(--color-nuk-gray-50);
 
+    /* Border Focus */
+    --border-focus-all: 1px solid var(--color-nuk-orion-50);
+    --border-focus-top: 1px 0px 0px 0px solid var(--color-nuk-orion-50);
+    --border-focus-bottom: 0px 0px 1px 0px solid var(--color-nuk-orion-50);
+    --border-focus-left: 0px 0px 0px 1px solid var(--color-nuk-orion-50);
+    --border-focus-right: 0px 1px 0px 0px solid var(--color-nuk-orion-50);
+    --border-focus-top-bottom: 1px 0px 1px 0px solid var(--color-nuk-orion-50);
+    --border-focus-left-right: 0px 1px 0px 1px solid var(--color-nuk-orion-50);
+    --border-focus-top-left: 1px 0px 0px 1px solid var(--color-nuk-orion-50);
+    --border-focus-top-right: 1px 1px 0px 0px solid var(--color-nuk-orion-50);
+    --border-focus-bottom-left: 0px 0px 1px 1px solid var(--color-nuk-orion-50);
+    --border-focus-bottom-right: 0px 1px 1px 0px solid var(--color-nuk-orion-50);
+    --border-focus-top-bottom-left: 1px 0px 1px 1px solid var(--color-nuk-orion-50);
+    --border-focus-top-bottom-right: 1px 1px 1px 0px solid var(--color-nuk-orion-50);
+    --border-focus-top-left-right: 1px 1px 0px 1px solid var(--color-nuk-orion-50);
+    --border-focus-bottom-left-right: 0px 1px 1px 1px solid var(--color-nuk-orion-50);
+    --border-focus-inverse: 1px solid var(--color-nuk-white);
+
+    /* Border Selected */
+    --border-selected-all: 2px solid var(--color-nuk-orion-50);
+    --border-selected-top: 2px 0px 0px 0px solid var(--color-nuk-orion-50);
+    --border-selected-bottom: 0px 0px 2px 0px solid var(--color-nuk-orion-50);
+    --border-selected-left: 0px 0px 0px 2px solid var(--color-nuk-orion-50);
+    --border-selected-right: 0px 2px 0px 0px solid var(--color-nuk-orion-50);
+    --border-selected-top-bottom: 2px 0px 2px 0px solid var(--color-nuk-orion-50);
+    --border-selected-left-right: 0px 2px 0px 2px solid var(--color-nuk-orion-50);
+    --border-selected-top-left: 2px 0px 0px 2px solid var(--color-nuk-orion-50);
+    --border-selected-top-right: 2px 2px 0px 0px solid var(--color-nuk-orion-50);
+    --border-selected-bottom-left: 0px 0px 2px 2px solid var(--color-nuk-orion-50);
+    --border-selected-bottom-right: 0px 2px 2px 0px solid var(--color-nuk-orion-50);
+    --border-selected-top-bottom-left: 2px 0px 2px 2px solid var(--color-nuk-orion-50);
+    --border-selected-top-bottom-right: 2px 2px 2px 0px solid var(--color-nuk-orion-50);
+    --border-selected-top-left-right: 2px 2px 0px 2px solid var(--color-nuk-orion-50);
+    --border-selected-bottom-left-right: 0px 2px 2px 2px solid var(--color-nuk-orion-50);
+
+    /* Border Error */
+    --border-error-all: 1px solid var(--color-nuk-red-60);
+
+    /* Border disabled */
+    --border-disabled-all: 1px solid var(--color-nuk-gray-30);
 
 }
