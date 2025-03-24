@@ -12,7 +12,6 @@
     --color-nuk-gray-80: #242424; /* Darker Gray */
     --color-nuk-gray-90: #181818; /* Darkest Gray */
     --color-nuk-gray-100: #0c0c0c; /* Almost Black */
-
     /* Orion Palette */
     --color-nuk-orion-10: #EDE0FF; /* Lightest Orion */
     --color-nuk-orion-20: #DBC0FB; /* Lighter Orion */
@@ -24,7 +23,6 @@
     --color-nuk-orion-80: #380C80; /* Darker Orion */
     --color-nuk-orion-90: #1C0640; /* Darkest Orion */
     --color-nuk-orion-100: #0E0320; /* Almost Black Orion */
-
     /* Blue Palette */
     --color-nuk-blue-10: #E2E8FF; /* Lightest Blue */
     --color-nuk-blue-20: #C5D0FF; /* Lighter Blue */
@@ -36,7 +34,6 @@
     --color-nuk-blue-80: #0B2180; /* Darker Blue */
     --color-nuk-blue-90: #061040; /* Darkest Blue */
     --color-nuk-blue-100: #030921; /* Almost Black Blue */
-
     /* Cyan Palette */
     --color-nuk-cyan-10: #e5f6ff; /* Lightest Cyan */
     --color-nuk-cyan-20: #bae6ff; /* Lighter Cyan */
@@ -48,7 +45,6 @@
     --color-nuk-cyan-80: #003a6d; /* Darker Cyan */
     --color-nuk-cyan-90: #012749; /* Darkest Cyan */
     --color-nuk-cyan-100: #061727; /* Almost Black Cyan */
-
     /* Green Palette */
     --color-nuk-green-10: #defbe6; /* Lightest Green */
     --color-nuk-green-20: #a7f0ba; /* Lighter Green */
@@ -60,7 +56,6 @@
     --color-nuk-green-80: #044317; /* Darker Green */
     --color-nuk-green-90: #022d0d; /* Darkest Green */
     --color-nuk-green-100: #071908; /* Almost Black Green */
-
     /* Teal Palette */
     --color-nuk-teal-10: #d9fbfb; /* Lightest Teal */
     --color-nuk-teal-20: #9ef0f0; /* Lighter Teal */
@@ -72,7 +67,6 @@
     --color-nuk-teal-80: #004144; /* Darker Teal */
     --color-nuk-teal-90: #022b30; /* Darkest Teal */
     --color-nuk-teal-100: #081a1c; /* Almost Black Teal */
-
     /* Orange Palette */
     --color-nuk-orange-10: #fff2e8; /* Lightest Orange */
     --color-nuk-orange-20: #ffd9be; /* Lighter Orange */
@@ -84,7 +78,6 @@
     --color-nuk-orange-80: #5e2900; /* Darker Orange */
     --color-nuk-orange-90: #3e1a00; /* Darkest Orange */
     --color-nuk-orange-100: #231000; /* Almost Black Orange */
-
     /* Magenta Palette */
     --color-nuk-magenta-10: #fff0f7; /* Lightest Magenta */
     --color-nuk-magenta-20: #ffd6e8; /* Lighter Magenta */
@@ -96,7 +89,6 @@
     --color-nuk-magenta-80: #740937; /* Darker Magenta */
     --color-nuk-magenta-90: #510224; /* Darkest Magenta */
     --color-nuk-magenta-100: #2a0a18; /* Almost Black Magenta */
-
     /* Yellow Palette */
     --color-nuk-yellow-10: #fcf4d6; /* Lightest Yellow */
     --color-nuk-yellow-20: #fddc69; /* Lighter Yellow */
@@ -108,7 +100,6 @@
     --color-nuk-yellow-80: #483700; /* Darker Yellow */
     --color-nuk-yellow-90: #302400; /* Darkest Yellow */
     --color-nuk-yellow-100: #1c1500; /* Almost Black Yellow */
-
     /* Red Palette */
     --color-nuk-red-10: #fff1f1; /* Lightest Red */
     --color-nuk-red-20: #ffd7d9; /* Lighter Red */
@@ -120,12 +111,9 @@
     --color-nuk-red-80: #750e13; /* Darker Red */
     --color-nuk-red-90: #520408; /* Darkest Red */
     --color-nuk-red-100: #2d0709; /* Almost Black Red */
-
     /* Black and White */
     --color-nuk-white: #fffffff; /* White */
     --color-nuk-black: #000000; /* Black */
-
-
     /* Width Breakpoints for responsive design*/
     --breakpoint-xs: 0px;
     --breakpoint-sm: 320px;
@@ -134,7 +122,7 @@
     --breakpoint-xl: 1312px;
     --breakpoint-mx: 1584px;
 
-    --shadow-menu: 0 2px 6px 0 rgba(0,0,0,.3);
+    --shadow-menu: 0 2px 6px 0 rgba(0, 0, 0, .3);
 
 
     /* Border Subtle 01 */
@@ -211,5 +199,25 @@
 
     /* Border disabled */
     --border-disabled-all: 1px solid var(--color-nuk-gray-30);
+
+
+    /* Transition Constants */
+
+    /* Easing */
+    --nuke-standard-productive-easing: cubic-bezier(0.2, 0, 0.38, 0.9);
+    --nuke-entrance-productive-easing: cubic-bezier(0, 0, 0.38, 0.9);
+    --nuke-exiting-productive-easing: cubic-bezier(0.2, 0, 1, 0.9);
+
+    --nuke-standard-expressive-easing: cubic-bezier(0.4, 0.14, 0.3, 1);
+    --nuke-entrance-expressive-easing: cubic-bezier(0, 0, 0.3, 1);
+    --nuke-exiting-expressice-easing: cubic-bezier(0.2, 0, 1, 0.9);
+
+    /* Durations */
+    --nuke-duration-fast-01: 70ms;
+    --nuke-duration-fast-02: 110ms;
+    --nuke-duration-moderate-01: 150ms;
+    --nuke-duration-moderate-02: 240ms;
+    --nuke-duration-slow-01: 400ms;
+    --nuke-duration-slow-02: 700ms;
 
 }
