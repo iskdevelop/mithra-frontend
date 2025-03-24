@@ -1,0 +1,150 @@
+
+/* Productive Standard Easing */
+.transition-productive-standard-slow-01 {
+    transition: all var(--nuke-duration-slow-01) var(--nuke-standard-productive-easing);
+}
+
+.transition-productive-standard-slow-02 {
+    transition: all var(--nuke-duration-slow-02) var(--nuke-standard-productive-easing);
+}
+
+.transition-productive-standard-moderate-01 {
+    transition: all var(--nuke-duration-moderate-01) var(--nuke-standard-productive-easing);
+}
+
+.transition-productive-standard-moderate-02 {
+    transition: all var(--nuke-duration-moderate-02) var(--nuke-standard-productive-easing);
+}
+
+.transition-productive-standard-fast-01 {
+    transition: all var(--nuke-duration-fast-01) var(--nuke-standard-productive-easing);
+}
+
+.transition-productive-standard-fast-02 {
+    transition: all var(--nuke-duration-fast-02) var(--nuke-standard-productive-easing);
+}
+
+/* Productive Entrance Easing */
+.transition-productive-entrance-slow-01 {
+    transition: all var(--nuke-duration-slow-01) var(--nuke-entrance-productive-easing);
+}
+
+.transition-productive-entrance-slow-02 {
+    transition: all var(--nuke-duration-slow-02) var(--nuke-entrance-productive-easing);
+}
+
+.transition-productive-entrance-moderate-01 {
+    transition: all var(--nuke-duration-moderate-01) var(--nuke-entrance-productive-easing);
+}
+
+.transition-productive-entrance-moderate-02 {
+    transition: all var(--nuke-duration-moderate-02) var(--nuke-entrance-productive-easing);
+}
+
+.transition-productive-entrance-fast-01 {
+    transition: all var(--nuke-duration-fast-01) var(--nuke-entrance-productive-easing);
+}
+
+.transition-productive-entrance-fast-02 {
+    transition: all var(--nuke-duration-fast-02) var(--nuke-entrance-productive-easing);
+}
+
+/* Productive Exiting Easing */
+.transition-productive-exiting-slow-01 {
+    transition: all var(--nuke-duration-slow-01) var(--nuke-exiting-productive-easing);
+}
+
+.transition-productive-exiting-slow-02 {
+    transition: all var(--nuke-duration-slow-02) var(--nuke-exiting-productive-easing);
+}
+
+.transition-productive-exiting-moderate-01 {
+    transition: all var(--nuke-duration-moderate-01) var(--nuke-exiting-productive-easing);
+}
+
+.transition-productive-exiting-moderate-02 {
+    transition: all var(--nuke-duration-moderate-02) var(--nuke-exiting-productive-easing);
+}
+
+.transition-productive-exiting-fast-01 {
+    transition: all var(--nuke-duration-fast-01) var(--nuke-exiting-productive-easing);
+}
+
+.transition-productive-exiting-fast-02 {
+    transition: all var(--nuke-duration-fast-02) var(--nuke-exiting-productive-easing);
+}
+
+/* Expressive Standard Easing */
+.transition-expressive-standard-slow-01 {
+    transition: all var(--nuke-duration-slow-01) var(--nuke-standard-expressive-easing);
+}
+
+.transition-expressive-standard-slow-02 {
+    transition: all var(--nuke-duration-slow-02) var(--nuke-standard-expressive-easing);
+}
+
+.transition-expressive-standard-moderate-01 {
+    transition: all var(--nuke-duration-moderate-01) var(--nuke-standard-expressive-easing);
+}
+
+.transition-expressive-standard-moderate-02 {
+    transition: all var(--nuke-duration-moderate-02) var(--nuke-standard-expressive-easing);
+}
+
+.transition-expressive-standard-fast-01 {
+    transition: all var(--nuke-duration-fast-01) var(--nuke-standard-expressive-easing);
+}
+
+.transition-expressive-standard-fast-02 {
+    transition: all var(--nuke-duration-fast-02) var(--nuke-standard-expressive-easing);
+}
+
+/* Expressive Entrance Easing */
+.transition-expressive-entrance-slow-01 {
+    transition: all var(--nuke-duration-slow-01) var(--nuke-entrance-expressive-easing);
+}
+
+.transition-expressive-entrance-slow-02 {
+    transition: all var(--nuke-duration-slow-02) var(--nuke-entrance-expressive-easing);
+}
+
+.transition-expressive-entrance-moderate-01 {
+    transition: all var(--nuke-duration-moderate-01) var(--nuke-entrance-expressive-easing);
+}
+
+.transition-expressive-entrance-moderate-02 {
+    transition: all var(--nuke-duration-moderate-02) var(--nuke-entrance-expressive-easing);
+}
+
+.transition-expressive-entrance-fast-01 {
+    transition: all var(--nuke-duration-fast-01) var(--nuke-entrance-expressive-easing);
+}
+
+.transition-expressive-entrance-fast-02 {
+    transition: all var(--nuke-duration-fast-02) var(--nuke-entrance-expressive-easing);
+}
+
+/* Expressive Exiting Easing */
+.transition-expressive-exiting-slow-01 {
+    transition: all var(--nuke-duration-slow-01) var(--nuke-exiting-expressive-easing);
+}
+
+.transition-expressive-exiting-slow-02 {
+    transition: all var(--nuke-duration-slow-02) var(--nuke-exiting-expressive-easing);
+}
+
+.transition-expressive-exiting-moderate-01 {
+    transition: all var(--nuke-duration-moderate-01) var(--nuke-exiting-expressive-easing);
+}
+
+.transition-expressive-exiting-moderate-02 {
+    transition: all var(--nuke-duration-moderate-02) var(--nuke-exiting-expressive-easing);
+}
+
+.transition-expressive-exiting-fast-01 {
+    transition: all var(--nuke-duration-fast-01) var(--nuke-exiting-expressive-easing);
+}
+
+.transition-expressive-exiting-fast-02 {
+    transition: all var(--nuke-duration-fast-02) var(--nuke-exiting-expressive-easing);
+}
