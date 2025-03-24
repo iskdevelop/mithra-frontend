@@ -210,7 +210,7 @@
 
     --nuke-standard-expressive-easing: cubic-bezier(0.4, 0.14, 0.3, 1);
     --nuke-entrance-expressive-easing: cubic-bezier(0, 0, 0.3, 1);
-    --nuke-exiting-expressice-easing: cubic-bezier(0.2, 0, 1, 0.9);
+    --nuke-exiting-expressive-easing: cubic-bezier(0.2, 0, 1, 0.9);
 
     /* Durations */
     --nuke-duration-fast-01: 70ms;
@@ -220,4 +220,124 @@
     --nuke-duration-slow-01: 400ms;
     --nuke-duration-slow-02: 700ms;
 
+
+    /* Productive Standard Easing */
+    .nuke-transition-productive-standard-slow-01 {
+        transition: all var(--nuke-duration-slow-01) var(--nuke-standard-productive-easing);
+    }
+    .nuke-transition-productive-standard-slow-02 {
+        transition: all var(--nuke-duration-slow-02) var(--nuke-standard-productive-easing);
+    }
+    .nuke-transition-productive-standard-moderate-01 {
+        transition: all var(--nuke-duration-moderate-01) var(--nuke-standard-productive-easing);
+    }
+    .nuke-transition-productive-standard-moderate-02 {
+        transition: all var(--nuke-duration-moderate-02) var(--nuke-standard-productive-easing);
+    }
+    .nuke-transition-productive-standard-fast-01 {
+        transition: all var(--nuke-duration-fast-01) var(--nuke-standard-productive-easing);
+    }
+    .nuke-transition-productive-standard-fast-02 {
+        transition: all var(--nuke-duration-fast-02) var(--nuke-standard-productive-easing);
+    }
+
+    /* Productive Entrance Easing */
+    .nuke-transition-productive-entrance-slow-01 {
+        transition: all var(--nuke-duration-slow-01) var(--nuke-entrance-productive-easing);
+    }
+    .nuke-transition-productive-entrance-slow-02 {
+        transition: all var(--nuke-duration-slow-02) var(--nuke-entrance-productive-easing);
+    }
+    .nuke-transition-productive-entrance-moderate-01 {
+        transition: all var(--nuke-duration-moderate-01) var(--nuke-entrance-productive-easing);
+    }
+    .nuke-transition-productive-entrance-moderate-02 {
+        transition: all var(--nuke-duration-moderate-02) var(--nuke-entrance-productive-easing);
+    }
+    .nuke-transition-productive-entrance-fast-01 {
+        transition: all var(--nuke-duration-fast-01) var(--nuke-entrance-productive-easing);
+    }
+    .nuke-transition-productive-entrance-fast-02 {
+        transition: all var(--nuke-duration-fast-02) var(--nuke-entrance-productive-easing);
+    }
+
+    /* Productive Exiting Easing */
+    .nuke-transition-productive-exiting-slow-01 {
+        transition: all var(--nuke-duration-slow-01) var(--nuke-exiting-productive-easing);
+    }
+    .nuke-transition-productive-exiting-slow-02 {
+        transition: all var(--nuke-duration-slow-02) var(--nuke-exiting-productive-easing);
+    }
+    .nuke-transition-productive-exiting-moderate-01 {
+        transition: all var(--nuke-duration-moderate-01) var(--nuke-exiting-productive-easing);
+    }
+    .nuke-transition-productive-exiting-moderate-02 {
+        transition: all var(--nuke-duration-moderate-02) var(--nuke-exiting-productive-easing);
+    }
+    .nuke-transition-productive-exiting-fast-01 {
+        transition: all var(--nuke-duration-fast-01) var(--nuke-exiting-productive-easing);
+    }
+    .nuke-transition-productive-exiting-fast-02 {
+        transition: all var(--nuke-duration-fast-02) var(--nuke-exiting-productive-easing);
+    }
+
+    /* Expressive Standard Easing */
+    .nuke-transition-expressive-standard-slow-01 {
+        transition: all var(--nuke-duration-slow-01) var(--nuke-standard-expressive-easing);
+    }
+    .nuke-transition-expressive-standard-slow-02 {
+        transition: all var(--nuke-duration-slow-02) var(--nuke-standard-expressive-easing);
+    }
+    .nuke-transition-expressive-standard-moderate-01 {
+        transition: all var(--nuke-duration-moderate-01) var(--nuke-standard-expressive-easing);
+    }
+    .nuke-transition-expressive-standard-moderate-02 {
+        transition: all var(--nuke-duration-moderate-02) var(--nuke-standard-expressive-easing);
+    }
+    .nuke-transition-expressive-standard-fast-01 {
+        transition: all var(--nuke-duration-fast-01) var(--nuke-standard-expressive-easing);
+    }
+    .nuke-transition-expressive-standard-fast-02 {
+        transition: all var(--nuke-duration-fast-02) var(--nuke-standard-expressive-easing);
+    }
+
+    /* Expressive Entrance Easing */
+    .nuke-transition-expressive-entrance-slow-01 {
+        transition: all var(--nuke-duration-slow-01) var(--nuke-entrance-expressive-easing);
+    }
+    .nuke-transition-expressive-entrance-slow-02 {
+        transition: all var(--nuke-duration-slow-02) var(--nuke-entrance-expressive-easing);
+    }
+    .nuke-transition-expressive-entrance-moderate-01 {
+        transition: all var(--nuke-duration-moderate-01) var(--nuke-entrance-expressive-easing);
+    }
+    .nuke-transition-expressive-entrance-moderate-02 {
+        transition: all var(--nuke-duration-moderate-02) var(--nuke-entrance-expressive-easing);
+    }
+    .nuke-transition-expressive-entrance-fast-01 {
+        transition: all var(--nuke-duration-fast-01) var(--nuke-entrance-expressive-easing);
+    }
+    .nuke-transition-expressive-entrance-fast-02 {
+        transition: all var(--nuke-duration-fast-02) var(--nuke-entrance-expressive-easing);
+    }
+
+    /* Expressive Exiting Easing */
+    .nuke-transition-expressive-exiting-slow-01 {
+        transition: all var(--nuke-duration-slow-01) var(--nuke-exiting-expressive-easing);
+    }
+    .nuke-transition-expressive-exiting-slow-02 {
+        transition: all var(--nuke-duration-slow-02) var(--nuke-exiting-expressive-easing);
+    }
+    .nuke-transition-expressive-exiting-moderate-01 {
+        transition: all var(--nuke-duration-moderate-01) var(--nuke-exiting-expressive-easing);
+    }
+    .nuke-transition-expressive-exiting-moderate-02 {
+        transition: all var(--nuke-duration-moderate-02) var(--nuke-exiting-expressive-easing);
+    }
+    .nuke-transition-expressive-exiting-fast-01 {
+        transition: all var(--nuke-duration-fast-01) var(--nuke-exiting-expressive-easing);
+    }
+    .nuke-transition-expressive-exiting-fast-02 {
+        transition: all var(--nuke-duration-fast-02) var(--nuke-exiting-expressive-easing);
+    }
 }
