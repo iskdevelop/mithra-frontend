@@ -1,15 +1,13 @@
 <template>
-     <div
-         class="nuke-text-fluid-display-04 bg-nuk-orion-50 text-nuk-white w-[50%]
-         hover:bg-nuk-orion-10 transition-productive-entrance-slow-01 fluid-display-01">
-          <h1 class="fluid-display-01">asds</h1>
+     <div id="app">
+          <router-view></router-view>
      </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
+import { defineComponent } from 'vue';
 
+export default defineComponent({
+     name: 'App',
+});
 </script>
-
-<style lang="scss" scoped>
-
-</style>
