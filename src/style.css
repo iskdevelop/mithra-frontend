@@ -124,4 +124,52 @@
     /* Black and White */
     --color-nuk-white: #fffffff; /* White */
     --color-nuk-black: #000000; /* Black */
+
+
+    /* Width Breakpoints for responsive design*/
+    --breakpoint-xs: 0px;
+    --breakpoint-sm: 320px;
+    --breakpoint-md: 672px;
+    --breakpoint-lg: 1056px;
+    --breakpoint-xl: 1312px;
+    --breakpoint-mx: 1584px;
+
+    --shadow-menu: 0 2px 6px 0 rgba(0,0,0,.3);
+
+
+    /* Border Subtle 01 */
+    --border-subtle-01-all: 1px solid var(--color-nuk-gray-20);
+    --border-subtle-01-top: 1px 0px 0px 0px solid var(--color-nuk-gray-20);
+    --border-subtle-01-bottom: 0px 0px 1px 0px solid var(--color-nuk-gray-20);
+    --border-subtle-01-left: 0px 0px 0px 1px solid var(--color-nuk-gray-20);
+    --border-subtle-01-right: 0px 1px 0px 0px solid var(--color-nuk-gray-20);
+    --border-subtle-01-top-bottom: 1px 0px 1px 0px solid var(--color-nuk-gray-20);
+    --border-subtle-01-left-right: 0px 1px 0px 1px solid var(--color-nuk-gray-20);
+    --border-subtle-01-top-left: 1px 0px 0px 1px solid var(--color-nuk-gray-20);
+    --border-subtle-01-top-right: 1px 1px 0px 0px solid var(--color-nuk-gray-20);
+    --border-subtle-01-bottom-left: 0px 0px 1px 1px solid var(--color-nuk-gray-20);
+    --border-subtle-01-bottom-right: 0px 1px 1px 0px solid var(--color-nuk-gray-20);
+    --border-subtle-01-top-bottom-left: 1px 0px 1px 1px solid var(--color-nuk-gray-20);
+    --border-subtle-01-top-bottom-right: 1px 1px 1px 0px solid var(--color-nuk-gray-20);
+    --border-subtle-01-top-left-right: 1px 1px 0px 1px solid var(--color-nuk-gray-20);
+    --border-subtle-01-bottom-left-right: 0px 1px 1px 1px solid var(--color-nuk-gray-20);
+
+    /* Border Subtle 02 */
+    --border-subtle-02-all: 1px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top: 1px 0px 0px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-bottom: 0px 0px 1px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-left: 0px 0px 0px 1px solid var(--color-nuk-gray-50);
+    --border-subtle-02-right: 0px 1px 0px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-bottom: 1px 0px 1px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-left-right: 0px 1px 0px 1px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-left: 1px 0px 0px 1px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-right: 1px 1px 0px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-bottom-left: 0px 0px 1px 1px solid var(--color-nuk-gray-50);
+    --border-subtle-02-bottom-right: 0px 1px 1px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-bottom-left: 1px 0px 1px 1px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-bottom-right: 1px 1px 1px 0px solid var(--color-nuk-gray-50);
+    --border-subtle-02-top-left-right: 1px 1px 0px 1px solid var(--color-nuk-gray-50);
+    --border-subtle-02-bottom-left-right: 0px 1px 1px 1px solid var(--color-nuk-gray-50);
+
+
 }
