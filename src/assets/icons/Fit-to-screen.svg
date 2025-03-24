@@ -1,0 +1,6 @@
+<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<path d="M11 8H12V4H8V5H11V8Z" fill="currentColor"/>
+<path d="M4 12H8V11H5V8H4V12Z" fill="currentColor"/>
+<path d="M13 14H3C2.73488 13.9997 2.4807 13.8942 2.29323 13.7068C2.10576 13.5193 2.0003 13.2651 2 13V3C2.0003 2.73488 2.10576 2.4807 2.29323 2.29323C2.4807 2.10576 2.73488 2.0003 3 2H13C13.2651 2.0003 13.5193 2.10576 13.7068 2.29323C13.8942 2.4807 13.9997 2.73488 14 3V13C13.9997 13.2651 13.8942 13.5193 13.7068 13.7068C13.5193 13.8942 13.2651 13.9997 13 14ZM3 3V13H13.0006L13 3H3Z" fill="currentColor"/>
+</svg>

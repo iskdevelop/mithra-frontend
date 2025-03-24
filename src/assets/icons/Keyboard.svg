@@ -1,0 +1,17 @@
+<svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" transform="translate(0 0.513672)" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<path d="M14 13.5137H2C1.73478 13.5137 1.48043 13.4083 1.29289 13.2208C1.10536 13.0332 1 12.7789 1 12.5137V5.51367C1 5.24846 1.10536 4.9941 1.29289 4.80657C1.48043 4.61903 1.73478 4.51367 2 4.51367H14C14.2652 4.51367 14.5196 4.61903 14.7071 4.80657C14.8946 4.9941 15 5.24846 15 5.51367V12.5137C15 12.7789 14.8946 13.0332 14.7071 13.2208C14.5196 13.4083 14.2652 13.5137 14 13.5137ZM2 5.51367V12.5137H14V5.51367H2Z" fill="currentColor"/>
+<path d="M10.5 10.5137H5V11.5137H10.5V10.5137Z" fill="currentColor"/>
+<path d="M4 6.51367H3V7.51367H4V6.51367Z" fill="currentColor"/>
+<path d="M6 6.51367H5V7.51367H6V6.51367Z" fill="currentColor"/>
+<path d="M8 6.51367H7V7.51367H8V6.51367Z" fill="currentColor"/>
+<path d="M10 6.51367H9V7.51367H10V6.51367Z" fill="currentColor"/>
+<path d="M4 10.5137H3V11.5137H4V10.5137Z" fill="currentColor"/>
+<path d="M4 8.51367H3V9.51367H4V8.51367Z" fill="currentColor"/>
+<path d="M6 8.51367H5V9.51367H6V8.51367Z" fill="currentColor"/>
+<path d="M8 8.51367H7V9.51367H8V8.51367Z" fill="currentColor"/>
+<path d="M13 6.51367H11V7.51367H13V6.51367Z" fill="currentColor"/>
+<path d="M13 8.51367H11V9.51367H13V8.51367Z" fill="currentColor"/>
+<path d="M10 8.51367H9V9.51367H10V8.51367Z" fill="currentColor"/>
+<path d="M13 10.5137H11.5V11.5137H13V10.5137Z" fill="currentColor"/>
+</svg>

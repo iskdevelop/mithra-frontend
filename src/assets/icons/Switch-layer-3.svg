@@ -1,0 +1,18 @@
+<svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1961_10636)">
+<rect width="16" height="16" transform="translate(0 0.513672)" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<path d="M11 2.51367V3.51367H12.293L9.793 6.01367L10.5 6.72067L13 4.22067V5.51367H14V2.51367H11Z" fill="currentColor"/>
+<path d="M5 2.51367V3.51367H3.707L6.207 6.01367L5.5 6.72067L3 4.22067V5.51367H2V2.51367H5Z" fill="currentColor"/>
+<path d="M10 3.01367L8 1.01367L6 3.01367L6.707 3.72067L7.5 2.92817V6.01367H8.5V2.92817L9.293 3.72067L10 3.01367Z" fill="currentColor"/>
+<path d="M11 14.5137V13.5137H12.293L9.793 11.0137L10.5 10.3067L13 12.8067V11.5137H14V14.5137H11Z" fill="currentColor"/>
+<path d="M5 14.5137V13.5137H3.707L6.207 11.0137L5.5 10.3067L3 12.8067V11.5137H2V14.5137H5Z" fill="currentColor"/>
+<path d="M10 14.0137L8 16.0137L6 14.0137L6.707 13.3067L7.5 14.0992V11.0137H8.5V14.0992L9.293 13.3067L10 14.0137Z" fill="currentColor"/>
+<path d="M2.5 6.51367L0.5 8.51367L2.5 10.5137L3.207 9.80667L2.4145 9.01367H5.5V8.01367H2.4145L3.207 7.22067L2.5 6.51367Z" fill="currentColor"/>
+<path d="M13.5 6.51367L15.5 8.51367L13.5 10.5137L12.793 9.80667L13.5855 9.01367H10.5V8.01367H13.5855L12.793 7.22067L13.5 6.51367Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_1961_10636">
+<rect width="16" height="16" fill="white" transform="translate(0 0.513672)"/>
+</clipPath>
+</defs>
+</svg>

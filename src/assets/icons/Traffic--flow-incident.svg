@@ -1,0 +1,11 @@
+<svg viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" transform="translate(0 0.513672)" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<path d="M13 5.22367L12.295 4.51367L11.0025 5.80617L11 5.80367L10.9975 5.80617L9.71 4.51867L9 5.22367L10.29 6.51367L9 7.80367L9.705 8.51367L10.9975 7.22117L11 7.22367L11.0025 7.22117L12.29 8.50867L13 7.80367L11.71 6.51367L13 5.22367Z" fill="currentColor"/>
+<path d="M7 9.22367L6.295 8.51367L5.0025 9.80617L5 9.80367L4.9975 9.80617L3.71 8.51867L3 9.22367L4.29 10.5137L3 11.8037L3.705 12.5137L4.9975 11.2212L5 11.2237L5.0025 11.2212L6.29 12.5087L7 11.8037L5.71 10.5137L7 9.22367Z" fill="currentColor"/>
+<path d="M2 1.51367H1V15.5137H2V1.51367Z" fill="currentColor"/>
+<path d="M15 1.51367H14V15.5137H15V1.51367Z" fill="currentColor"/>
+<path d="M8.5 1.51367H7.5V3.51367H8.5V1.51367Z" fill="currentColor"/>
+<path d="M8.5 5.51367H7.5V7.51367H8.5V5.51367Z" fill="currentColor"/>
+<path d="M8.5 9.51367H7.5V11.5137H8.5V9.51367Z" fill="currentColor"/>
+<path d="M8.5 13.5137H7.5V15.5137H8.5V13.5137Z" fill="currentColor"/>
+</svg>

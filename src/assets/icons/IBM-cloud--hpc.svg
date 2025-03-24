@@ -1,0 +1,19 @@
+<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1961_6442)">
+<rect width="16" height="16" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<path d="M12 6.5H11V7.5H12V6.5Z" fill="currentColor"/>
+<path d="M14 6.5H13V7.5H14V6.5Z" fill="currentColor"/>
+<path d="M16 6.5H15V7.5H16V6.5Z" fill="currentColor"/>
+<path d="M16 8.5H15V9.5H16V8.5Z" fill="currentColor"/>
+<path d="M8.50001 10H7.50001V11H8.50001V10Z" fill="currentColor"/>
+<path d="M11 14H10V15H11V14Z" fill="currentColor"/>
+<path d="M13 14H12V15H13V14Z" fill="currentColor"/>
+<path d="M9.50001 13H14V8.5H9.50001V13ZM10.5 9.5H13V12H10.5V9.5Z" fill="currentColor"/>
+<path d="M8.00001 1.5L7.99701 1.5001C5.64666 1.5017 3.54536 3.1654 3.08491 5.5577C1.30186 5.88035 0.00390884 7.4299 8.83602e-06 9.24075C-0.00444116 11.3125 1.67251 12.9956 3.74556 13H8.50001V12H3.74771C2.22936 11.9967 0.996709 10.7599 1.00001 9.2429C1.00286 7.91445 1.95461 6.77845 3.26296 6.54175L3.93736 6.4197L4.06691 5.74675C4.42896 3.8656 6.08621 2.5001 8.00001 2.5C9.86816 2.5 11.4698 3.76835 11.895 5.5845L12.8687 5.35645C12.3369 3.08595 10.335 1.5 8.00001 1.5Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_1961_6442">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

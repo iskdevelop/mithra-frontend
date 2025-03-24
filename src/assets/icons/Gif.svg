@@ -1,0 +1,6 @@
+<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<path d="M1 6V10C1 10.3978 1.15804 10.7794 1.43934 11.0607C1.72064 11.342 2.10218 11.5 2.5 11.5H5V7.5H3V8.5H4V10.5H2.5C2.36739 10.5 2.24021 10.4473 2.14645 10.3536C2.05268 10.2598 2 10.1326 2 10V6C2 5.86739 2.05268 5.74021 2.14645 5.64645C2.24021 5.55268 2.36739 5.5 2.5 5.5H5V4.5H2.5C2.10218 4.5 1.72064 4.65804 1.43934 4.93934C1.15804 5.22064 1 5.60218 1 6Z" fill="currentColor"/>
+<path d="M15 5.5V4.5H11V11.5H12V8.5H14.5V7.5H12V5.5H15Z" fill="currentColor"/>
+<path d="M6 4.5V5.5H7.5V10.5H6V11.5H10V10.5H8.5V5.5H10V4.5H6Z" fill="currentColor"/>
+</svg>

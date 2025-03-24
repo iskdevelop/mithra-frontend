@@ -1,0 +1,16 @@
+<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="16" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+<path d="M13.5 12.5H10V13.5H13.5V12.5Z" fill="currentColor"/>
+<path d="M12.5 14.5H11V15.5H12.5V14.5Z" fill="currentColor"/>
+<path d="M13.5 11.5H12.5C12.5 10.95 12.7 10.5 13.1 10.1L13.35 9.85C13.75 9.45 14 8.85 14 8.25C14 7 13 6 11.75 6C10.5 6 9.5 7 9.5 8.25C9.5 8.85 9.75 9.4 10.15 9.85L10.4 10.1C10.8 10.5 11 10.95 11 11.5H10C10 11.25 9.9 11 9.7 10.8L9.45 10.55C8.85 9.95 8.5 9.1 8.5 8.25C8.5 6.45 9.95 5 11.75 5C13.55 5 15 6.45 15 8.25C15 9.1 14.65 9.95 14.05 10.55L13.8 10.8C13.6 11 13.5 11.25 13.5 11.5Z" fill="currentColor"/>
+<path d="M7 11H3V12H7V11Z" fill="currentColor"/>
+<path d="M6 10C6.27614 10 6.5 9.77614 6.5 9.5C6.5 9.22386 6.27614 9 6 9C5.72386 9 5.5 9.22386 5.5 9.5C5.5 9.77614 5.72386 10 6 10Z" fill="currentColor"/>
+<path d="M4.5 9H3V10H4.5V9Z" fill="currentColor"/>
+<path d="M6.5 7H3V8H6.5V7Z" fill="currentColor"/>
+<path d="M8.5 5H5V6H8.5V5Z" fill="currentColor"/>
+<path d="M3.5 6C3.77614 6 4 5.77614 4 5.5C4 5.22386 3.77614 5 3.5 5C3.22386 5 3 5.22386 3 5.5C3 5.77614 3.22386 6 3.5 6Z" fill="currentColor"/>
+<path d="M10 3H8V4H10V3Z" fill="currentColor"/>
+<path d="M6.5 4C6.77614 4 7 3.77614 7 3.5C7 3.22386 6.77614 3 6.5 3C6.22386 3 6 3.22386 6 3.5C6 3.77614 6.22386 4 6.5 4Z" fill="currentColor"/>
+<path d="M5 3H3V4H5V3Z" fill="currentColor"/>
+<path d="M9 14H2V2H11V4H12V2C12 1.45 11.55 1 11 1H2C1.45 1 1 1.45 1 2V14C1 14.55 1.45 15 2 15H9V14Z" fill="currentColor"/>
+</svg>
