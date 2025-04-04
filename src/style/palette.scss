@@ -537,6 +537,55 @@ $palette: (
                 theme-gray100: $nu-orion-50
         ),
 
+        /* Link Tokens */
+        link-primary:(
+                theme-white: $nu-orion-50,
+                theme-gray10: $nu-orion-50,
+                theme-gray90: $nu-orion-40,
+                theme-gray100: $nu-orion-40
+        ),
+        link-primary-hover:(
+                theme-white: $nu-orion-70,
+                theme-gray10: $nu-orion-70,
+                theme-gray90: $nu-orion-30,
+                theme-gray100: $nu-orion-30
+        ),
+        link-secondary:(
+                theme-white: $nu-orion-70,
+                theme-gray10: $nu-orion-70,
+                theme-gray90: $nu-orion-30,
+                theme-gray100: $nu-orion-30
+        ),
+        link-inverse:(
+                theme-white: $nu-orion-30,
+                theme-gray10: $nu-orion-30,
+                theme-gray90: $nu-orion-50,
+                theme-gray100: $nu-orion-50
+        ),
+        link-inverse-hover:(
+                theme-white: $nu-orion-20,
+                theme-gray10: $nu-orion-20,
+                theme-gray90: $nu-orion-70,
+                theme-gray100: $nu-orion-70
+        ),
+        link-inverse-active:(
+                theme-white: $nu-gray-10,
+                theme-gray10: $nu-gray-10,
+                theme-gray90: $nu-gray-100,
+                theme-gray100: $nu-gray-100
+        ),
+        link-visited:(
+                theme-white: $nu-blue-30,
+                theme-gray10: $nu-blue-30,
+                theme-gray90: $nu-blue-40,
+                theme-gray100: $nu-blue-40
+        ),
+        link-inverse-visited:(
+                theme-white: $nu-blue-40,
+                theme-gray10: $nu-blue-40,
+                theme-gray90: $nu-blue-60,
+                theme-gray100: $nu-blue-60
+        ),
 
 
 
