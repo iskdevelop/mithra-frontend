@@ -845,5 +845,43 @@ $palette: (
                 theme-gray90: $nu-orion-50,
                 theme-gray100: $nu-orion-50
         ),
+
+        /* Misc Tokens */
+        interactive: (
+                theme-white: $nu-orion-50,
+                theme-gray10: $nu-orion-50,
+                theme-gray90: $nu-orion-40,
+                theme-gray100: $nu-orion-40
+        ),
+        highlight: (
+                theme-white: $nu-orion-20,
+                theme-gray10: $nu-orion-20,
+                theme-gray90: $nu-orion-80,
+                theme-gray100: $nu-orion-90
+        ),
+        toggle-off: (
+                theme-white: $nu-gray-50,
+                theme-gray10: $nu-gray-50,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-60
+        ),
+        overlay: (
+                theme-white: rgba($nu-gray-100, 0.5),
+                theme-gray10: rgba($nu-gray-100, 0.5),
+                theme-gray90: rgba($nu-gray-100, 0.7),
+                theme-gray100: rgba($nu-gray-100, 0.7)
+        ),
+        skeleton-element: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-70
+        ),
+        skeleton-background: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-80,
+                theme-gray100: $nu-gray-80
+        ),
 )
 
