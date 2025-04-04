@@ -365,6 +365,104 @@ $palette: (
 
         ),
 
+        /* Border Tokens */
+        border-subtle-00: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-80
+        ),
+        border-subtle-01: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        border-subtle-02: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-60
+        ),
+        border-subtle-03: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-60
+        ),
+        border-subtle-selected-01: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        border-subtle-selected-02: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-60
+        ),
+        border-subtle-selected-03: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-40,
+                theme-gray100: $nu-gray-50
+        ),
+        border-strong-01: (
+                theme-white: $nu-gray-50,
+                theme-gray10: $nu-gray-50,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-60
+        ),
+        border-strong-02: (
+                theme-white: $nu-gray-50,
+                theme-gray10: $nu-gray-50,
+                theme-gray90: $nu-gray-40,
+                theme-gray100: $nu-gray-50
+        ),
+        border-strong-03: (
+                theme-white: $nu-gray-50,
+                theme-gray10: $nu-gray-50,
+                theme-gray90: $nu-gray-30,
+                theme-gray100: $nu-gray-40
+        ),
+        border-tile-01: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-40,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        border-tile-02: (
+                theme-white: $nu-gray-40,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-60
+        ),
+        border-tile-03: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-40,
+                theme-gray90: $nu-gray-40,
+                theme-gray100: $nu-gray-50
+        ),
+        border-inverse: (
+                theme-white: $nu-gray-100,
+                theme-gray10: $nu-gray-100,
+                theme-gray90: $nu-gray-10,
+                theme-gray100: $nu-gray-10
+        ),
+        border-disabled: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: rgba($nu-gray-50, 0.5),
+                theme-gray100: rgba($nu-gray-50, 0.5)
+        ),
+        border-interactive: (
+                theme-white: $nu-gray-50,
+                theme-gray10: $nu-gray-50,
+                theme-gray90: $nu-gray-40,
+                theme-gray100: $nu-gray-40
+        ),
+
 
 
 
