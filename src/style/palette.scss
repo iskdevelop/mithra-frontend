@@ -108,7 +108,8 @@ $nu-red-80: #750e13; /* Darker Red */
 $nu-red-90: #520408; /* Darkest Red */
 $nu-red-100: #2d0709; /* Almost Black Red */
 /* Black and White */
-$nu-white: #fffffff; /* White */
+
+$nu-white: #ffffff; /* White */
 $nu-black: #000000; /* Black */
 
 /* Color Palette */
@@ -320,52 +321,44 @@ $palette: (
                 theme-gray90: $nu-gray-70,
                 theme-gray100: $nu-gray-80
         ),
-
-        /* Field Tokens */
+  /* Field Tokens */
         field-01: (
                 theme-white: $nu-gray-10,
                 theme-gray10: $nu-white,
                 theme-gray90:$nu-gray-80,
                 theme-gray100:$nu-gray-90
-
         ),
         field-02: (
                 theme-white: $nu-white,
                 theme-gray10: $nu-gray-10,
                 theme-gray90:$nu-gray-70,
                 theme-gray100:$nu-gray-80
-
         ),
         field-03: (
                 theme-white: $nu-gray-10,
                 theme-gray10: $nu-white,
                 theme-gray90:$nu-gray-60,
                 theme-gray100:$nu-gray-70
-
         ),
         field-hover-01: (
                 theme-white: $nu-gray-20,
                 theme-gray10: $nu-gray-20,
                 theme-gray90:$nu-gray-70,
                 theme-gray100:$nu-gray-80
-
         ),
         field-hover-02: (
                 theme-white: $nu-gray-20,
                 theme-gray10: $nu-gray-20,
                 theme-gray90:$nu-gray-60,
                 theme-gray100:$nu-gray-70
-
         ),
         field-hover-03: (
                 theme-white: $nu-gray-20,
                 theme-gray10: $nu-gray-20,
                 theme-gray90:$nu-gray-70,
                 theme-gray100:$nu-gray-60
-
         ),
-
-        /* Border Tokens */
+  /* Border Tokens */
         border-subtle-00: (
                 theme-white: $nu-gray-20,
                 theme-gray10: $nu-gray-30,
@@ -462,8 +455,7 @@ $palette: (
                 theme-gray90: $nu-gray-40,
                 theme-gray100: $nu-gray-40
         ),
-
-        /* Text Tokens */
+  /* Text Tokens */
         text-primary: (
                 theme-white: $nu-gray-100,
                 theme-gray10: $nu-gray-100,
@@ -536,8 +528,7 @@ $palette: (
                 theme-gray90: $nu-orion-50,
                 theme-gray100: $nu-orion-50
         ),
-
-        /* Link Tokens */
+  /* Link Tokens */
         link-primary:(
                 theme-white: $nu-orion-50,
                 theme-gray10: $nu-orion-50,
@@ -586,12 +577,190 @@ $palette: (
                 theme-gray90: $nu-blue-60,
                 theme-gray100: $nu-blue-60
         ),
+  /* Icon Tokens */
+        icon-primary: (
+                theme-white: $nu-gray-100,
+                theme-gray10: $nu-gray-100,
+                theme-gray90: $nu-gray-10,
+                theme-gray100: $nu-gray-10
+        ),
+        icon-secondary: (
+                theme-white: $nu-gray-70,
+                theme-gray10: $nu-gray-70,
+                theme-gray90: $nu-gray-30,
+                theme-gray100: $nu-gray-30
+        ),
+        icon-on-color: (
+                theme-white: $nu-white,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-white,
+                theme-gray100: $nu-white
+        ),
+        icon-on-color-disabled: (
+                theme-white: $nu-gray-50,
+                theme-gray10: $nu-gray-50,
+                theme-gray90: rgba($nu-white, 0.25),
+                theme-gray100: rgba($nu-white, 0.25)
+        ),
+        icon-interactive:(
+                theme-white: $nu-orion-50,
+                theme-gray10: $nu-orion-50,
+                theme-gray90: $nu-white,
+                theme-gray100: $nu-white
+        ),
+        icon-inverse:(
+                theme-white: $nu-white,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-gray-100,
+                theme-gray100: $nu-gray-100
+        ),
+        icon-disabled:(
+                theme-white: rgba($nu-gray-100, 0.25),
+                theme-gray10: rgba($nu-gray-100, 0.25),
+                theme-gray90: rgba($nu-gray-10, 0.25),
+                theme-gray100: rgba($nu-gray-10, 0.25)
+        ),
+        icon-helper:(
+                theme-white: $nu-gray-60,
+                theme-gray10: $nu-gray-60,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-50
+        ),
+        icon-error:(
+                theme-white: $nu-red-60,
+                theme-gray10: $nu-red-60,
+                theme-gray90: $nu-red-30,
+                theme-gray100: $nu-red-30
+        ),
+        icon-brand:(
+                theme-white: $nu-orion-50,
+                theme-gray10: $nu-orion-50,
+                theme-gray90: $nu-orion-50,
+                theme-gray100: $nu-orion-50
+        ),
+        icon-white:(
+                theme-white: $nu-white,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-white,
+                theme-gray100: $nu-white
+        ),
+        icon-black:(
+                theme-white: $nu-black,
+                theme-gray10: $nu-black,
+                theme-gray90: $nu-black,
+                theme-gray100: $nu-black
+        ),
+  /* Button Tokens */
+        button-primary: (
+                theme-white: $nu-orion-50,
+                theme-gray10: $nu-orion-50,
+                theme-gray90: $nu-orion-50,
+                theme-gray100: $nu-orion-50
+        ),
+        button-primary-hover: (
+                theme-white: $nu-orion-60,
+                theme-gray10: $nu-orion-60,
+                theme-gray90: $nu-orion-60,
+                theme-gray100: $nu-orion-60
+        ),
+        button-primary-active: (
+                theme-white: $nu-orion-80,
+                theme-gray10: $nu-orion-80,
+                theme-gray90: $nu-orion-80,
+                theme-gray100: $nu-orion-80
+        ),
+        button-secondary: (
+                theme-white: $nu-gray-80,
+                theme-gray10: $nu-gray-80,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-60
+        ),
+        button-secondary-hover: (
+                theme-white: $nu-gray-70,
+                theme-gray10: $nu-gray-70,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-70
+        ),
+        button-secondary-active: (
+                theme-white: $nu-gray-60,
+                theme-gray10: $nu-gray-60,
+                theme-gray90: $nu-gray-80,
+                theme-gray100: $nu-gray-80
+        ),
+        button-secondary-light: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-10,
+                theme-gray100: $nu-gray-10
+        ),
+        button-secondary-light-hover: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-20,
+                theme-gray100: $nu-gray-20
+        ),
+        button-secondary-light-active: (
+                theme-white: $nu-gray-40,
+                theme-gray10: $nu-gray-40,
+                theme-gray90: $nu-gray-30,
+                theme-gray100: $nu-gray-30
+        ),
+        button-teritary: (
+                theme-white: $nu-orion-50,
+                theme-gray10: $nu-orion-50,
+                theme-gray90: $nu-white,
+                theme-gray100: $nu-white
+        ),
+        button-teritary-hover: (
+                theme-white: $nu-orion-60,
+                theme-gray10: $nu-orion-60,
+                theme-gray90: $nu-gray-10,
+                theme-gray100: $nu-gray-10
+        ),
+        button-teritary-active: (
+                theme-white: $nu-orion-80,
+                theme-gray10: $nu-orion-80,
+                theme-gray90: $nu-gray-30,
+                theme-gray100: $nu-gray-30
+        ),
 
+        button-danger: (
+                theme-white: $nu-red-60,
+                theme-gray10: $nu-red-60,
+                theme-gray90: $nu-red-60,
+                theme-gray100: $nu-red-60
+        ),
+        button-danger-secondary: (
+                theme-white: $nu-red-50,
+                theme-gray10: $nu-red-50,
+                theme-gray90: $nu-red-50,
+                theme-gray100: $nu-red-50
+        ),
+        button-danger-hover: (
+                theme-white: $nu-red-70,
+                theme-gray10: $nu-red-70,
+                theme-gray90: $nu-red-70,
+                theme-gray100: $nu-red-70
+        ),
+        button-danger-active: (
+                theme-white: $nu-red-80,
+                theme-gray10: $nu-red-80,
+                theme-gray90: $nu-red-80,
+                theme-gray100: $nu-red-80
+        ),
 
-
-
-
-
+        button-separator: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-100,
+                theme-gray100: $nu-gray-90
+        ),
+        button-disabled: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-60
+        ),
 
 
 )
