@@ -723,7 +723,6 @@ $palette: (
                 theme-gray90: $nu-gray-30,
                 theme-gray100: $nu-gray-30
         ),
-
         button-danger: (
                 theme-white: $nu-red-60,
                 theme-gray10: $nu-red-60,
@@ -748,7 +747,6 @@ $palette: (
                 theme-gray90: $nu-red-80,
                 theme-gray100: $nu-red-80
         ),
-
         button-separator: (
                 theme-white: $nu-gray-20,
                 theme-gray10: $nu-gray-20,
@@ -761,7 +759,72 @@ $palette: (
                 theme-gray90: $nu-gray-60,
                 theme-gray100: $nu-gray-60
         ),
-
-
+  /* Support Tokens */
+        support-error: (
+                theme-white: $nu-red-60,
+                theme-gray10: $nu-red-60,
+                theme-gray90: $nu-red-50,
+                theme-gray100: $nu-red-50
+        ),
+        support-success: (
+                theme-white: $nu-green-50,
+                theme-gray10: $nu-green-50,
+                theme-gray90: $nu-green-40,
+                theme-gray100: $nu-green-40
+        ),
+        support-warning: (
+                theme-white: $nu-yellow-30,
+                theme-gray10: $nu-yellow-30,
+                theme-gray90: $nu-yellow-30,
+                theme-gray100: $nu-yellow-30
+        ),
+        support-info: (
+                theme-white: $nu-blue-50,
+                theme-gray10: $nu-blue-50,
+                theme-gray90: $nu-blue-30,
+                theme-gray100: $nu-blue-30
+        ),
+        support-error-inverse: (
+                theme-white: $nu-red-50,
+                theme-gray10: $nu-red-50,
+                theme-gray90: $nu-red-60,
+                theme-gray100: $nu-red-60
+        ),
+        support-success-inverse: (
+                theme-white: $nu-green-40,
+                theme-gray10: $nu-green-40,
+                theme-gray90: $nu-green-50,
+                theme-gray100: $nu-green-50
+        ),
+        support-warning-inverse: (
+                theme-white: $nu-yellow-30,
+                theme-gray10: $nu-yellow-30,
+                theme-gray90: $nu-yellow-30,
+                theme-gray100: $nu-yellow-30
+        ),
+        support-info-inverse: (
+                theme-white: $nu-blue-50,
+                theme-gray10: $nu-blue-50,
+                theme-gray90: $nu-blue-70,
+                theme-gray100: $nu-blue-70
+        ),
+        support-caution-major: (
+                theme-white: $nu-orange-40,
+                theme-gray10: $nu-orange-40,
+                theme-gray90: $nu-orange-40,
+                theme-gray100: $nu-orange-40
+        ),
+        support-caution-minor: (
+                theme-white: $nu-yellow-30,
+                theme-gray10: $nu-yellow-30,
+                theme-gray90: $nu-yellow-30,
+                theme-gray100: $nu-yellow-30
+        ),
+        support-undefined: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-80,
+                theme-gray100: $nu-gray-80
+        )
 )
 
