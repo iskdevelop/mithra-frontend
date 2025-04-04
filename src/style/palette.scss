@@ -265,8 +265,7 @@ $palette: (
                 theme-gray90: $nu-gray-50,
                 theme-gray100: $nu-gray-50
         ),
-
-        /* Leyer Accent Tokens */
+  /* Leyer Accent Tokens */
         layer-accent-01: (
                 theme-white: $nu-gray-20,
                 theme-gray10: $nu-gray-20,
@@ -322,10 +321,49 @@ $palette: (
                 theme-gray100: $nu-gray-80
         ),
 
+        /* Field Tokens */
+        field-01: (
+                theme-white: $nu-gray-10,
+                theme-gray10: $nu-white,
+                theme-gray90:$nu-gray-80,
+                theme-gray100:$nu-gray-90
 
+        ),
+        field-02: (
+                theme-white: $nu-white,
+                theme-gray10: $nu-gray-10,
+                theme-gray90:$nu-gray-70,
+                theme-gray100:$nu-gray-80
 
+        ),
+        field-03: (
+                theme-white: $nu-gray-10,
+                theme-gray10: $nu-white,
+                theme-gray90:$nu-gray-60,
+                theme-gray100:$nu-gray-70
 
+        ),
+        field-hover-01: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90:$nu-gray-70,
+                theme-gray100:$nu-gray-80
 
+        ),
+        field-hover-02: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90:$nu-gray-60,
+                theme-gray100:$nu-gray-70
+
+        ),
+        field-hover-03: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90:$nu-gray-70,
+                theme-gray100:$nu-gray-60
+
+        ),
 
 
 
