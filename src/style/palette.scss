@@ -113,8 +113,7 @@ $nu-black: #000000; /* Black */
 
 /* Color Palette */
 $palette: (
-
-        /* Background Tokens */
+  /* Background Tokens */
         background: (
                 theme-white: #ffffff,
                 theme-gray10: $nu-gray-10,
@@ -163,8 +162,7 @@ $palette: (
                 theme-gray90: $nu-orion-50,
                 theme-gray100: $nu-orion-50
         ),
-
-        /* Layer Tokens */
+  /* Layer Tokens */
         layer-01 :(
                 theme-white: $nu-gray-10,
                 theme-gray10: $nu-white,
@@ -268,5 +266,75 @@ $palette: (
                 theme-gray100: $nu-gray-50
         ),
 
+        /* Leyer Accent Tokens */
+        layer-accent-01: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-80
+        ),
+        layer-accent-02: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-accent-03: (
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-60
+        ),
+        layer-accent-hover-01: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-accent-hover-02: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-60
+        ),
+        layer-accent-hover-03: (
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-40,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-accent-active-01: (
+                theme-white: $nu-gray-40,
+                theme-gray10: $nu-gray-40,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-accent-active-02: (
+                theme-white: $nu-gray-40,
+                theme-gray10: $nu-gray-40,
+                theme-gray90: $nu-gray-80,
+                theme-gray100: $nu-gray-50
+        ),
+        layer-accent-active-03: (
+                theme-white: $nu-gray-40,
+                theme-gray10: $nu-gray-40,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-80
+        ),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 )
-)
+
