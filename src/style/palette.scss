@@ -463,6 +463,79 @@ $palette: (
                 theme-gray100: $nu-gray-40
         ),
 
+        /* Text Tokens */
+        text-primary: (
+                theme-white: $nu-gray-100,
+                theme-gray10: $nu-gray-100,
+                theme-gray90: $nu-gray-10,
+                theme-gray100: $nu-gray-10
+        ),
+        text-secondary: (
+                theme-white: $nu-gray-70,
+                theme-gray10: $nu-gray-70,
+                theme-gray90: $nu-gray-30,
+                theme-gray100: $nu-gray-30
+        ),
+        text-placeholder: (
+                theme-white: $nu-gray-40,
+                theme-gray10: $nu-gray-40,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-60
+        ),
+        text-on-color: (
+                theme-white: $nu-white,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-white,
+                theme-gray100: $nu-white
+        ),
+        text-on-color-disabled: (
+                theme-white: $nu-gray-50,
+                theme-gray10: $nu-gray-50,
+                theme-gray90: rgba($nu-white, 0.25),
+                theme-gray100: rgba($nu-white, 0.25)
+        ),
+        text-helper: (
+                theme-white: $nu-gray-60,
+                theme-gray10: $nu-gray-60,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-50
+        ),
+        text-error: (
+                theme-white: $nu-red-60,
+                theme-gray10: $nu-red-60,
+                theme-gray90: $nu-red-30,
+                theme-gray100: $nu-red-30
+        ),
+        text-inverse: (
+                theme-white: $nu-white,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-gray-100,
+                theme-gray100: $nu-gray-100
+        ),
+        text-disabled: (
+                theme-white: rgba($nu-gray-100, 0.25),
+                theme-gray10: rgba($nu-gray-100, 0.25),
+                theme-gray90: rgba($nu-gray-10, 0.25),
+                theme-gray100: rgba($nu-gray-10, 0.25)
+        ),
+        text-white: (
+                theme-white: $nu-white,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-white,
+                theme-gray100: $nu-white
+        ),
+        text-black: (
+                theme-white: $nu-black,
+                theme-gray10: $nu-black,
+                theme-gray90: $nu-black,
+                theme-gray100: $nu-black
+        ),
+        text-brand: (
+                theme-white: $nu-orion-50,
+                theme-gray10: $nu-orion-50,
+                theme-gray90: $nu-orion-50,
+                theme-gray100: $nu-orion-50
+        ),
 
 
 
