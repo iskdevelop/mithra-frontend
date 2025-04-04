@@ -825,8 +825,25 @@ $palette: (
                 theme-gray10: $nu-gray-30,
                 theme-gray90: $nu-gray-80,
                 theme-gray100: $nu-gray-80
-        )
-
-        /* Focus */
+        ),
+  /* Focus */
+        focus: (
+                theme-white: $nu-gray-100,
+                theme-gray10: $nu-gray-100,
+                theme-gray90: $nu-white,
+                theme-gray100: $nu-white
+        ),
+        focus-inset: (
+                theme-white: $nu-white,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-gray-100,
+                theme-gray100: $nu-gray-100
+        ),
+        focus-inverse: (
+                theme-white: $nu-gray-100,
+                theme-gray10: $nu-gray-100,
+                theme-gray90: $nu-orion-50,
+                theme-gray100: $nu-orion-50
+        ),
 )
 
