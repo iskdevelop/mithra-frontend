@@ -113,6 +113,8 @@ $nu-black: #000000; /* Black */
 
 /* Color Palette */
 $palette: (
+
+        /* Background Tokens */
         background: (
                 theme-white: #ffffff,
                 theme-gray10: $nu-gray-10,
@@ -161,5 +163,110 @@ $palette: (
                 theme-gray90: $nu-orion-50,
                 theme-gray100: $nu-orion-50
         ),
+
+        /* Layer Tokens */
+        layer-01 :(
+                theme-white: $nu-gray-10,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-gray-80,
+                theme-gray100: $nu-gray-90
+        ),
+        layer-02 :(
+                theme-white: $nu-white,
+                theme-gray10: $nu-gray-10,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-80
+        ),
+        layer-03 :(
+                theme-white: $nu-gray-10,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-hover-01 :(
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-80
+        ),
+        layer-hover-02 :(
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-hover-03 :(
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-active-01 :(
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-active-02 :(
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-60
+        ),
+        layer-active-03 :(
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-80,
+                theme-gray100: $nu-gray-50
+        ),
+        layer-selected-01 :(
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-80
+        ),
+        layer-selected-02 :(
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-selected-03 :(
+                theme-white: $nu-gray-20,
+                theme-gray10: $nu-gray-20,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-60
+        ),
+        layer-selected-hover-01 :(
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-selected-hover-02 :(
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-70,
+                theme-gray100: $nu-gray-60
+        ),
+        layer-selected-hover-03 :(
+                theme-white: $nu-gray-30,
+                theme-gray10: $nu-gray-30,
+                theme-gray90: $nu-gray-60,
+                theme-gray100: $nu-gray-70
+        ),
+        layer-selected-inverse :(
+                theme-white: $nu-gray-100,
+                theme-gray10: $nu-gray-100,
+                theme-gray90: $nu-gray-10,
+                theme-gray100: $nu-gray-10
+        ),
+        layer-selected-disabled :(
+                theme-white: $nu-gray-50,
+                theme-gray10: $nu-gray-50,
+                theme-gray90: $nu-gray-50,
+                theme-gray100: $nu-gray-50
+        ),
+
 )
 )
