@@ -85,9 +85,6 @@
       "#build": [
         "./"
       ],
-      "#build/*": [
-        "./*"
-      ],
       "#internal/nuxt/paths": [
         "../node_modules/nuxt/dist/core/runtime/nitro/utils/paths"
       ],
@@ -114,7 +111,6 @@
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
-    "../node_modules/@nuxt/vite-builder/dist",
     "../dist"
   ]
 }

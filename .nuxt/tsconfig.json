@@ -106,9 +106,6 @@
       ],
       "#build": [
         "."
-      ],
-      "#build/*": [
-        "./*"
       ]
     },
     "esModuleInterop": true,
@@ -155,7 +152,6 @@
     "../node_modules/nuxt/node_modules",
     "../node_modules/@nuxt/devtools/node_modules",
     "../node_modules/@nuxt/telemetry/node_modules",
-    "../node_modules/@nuxt/vite-builder/dist",
     "../node_modules/@nuxt/devtools/runtime/server",
     "../node_modules/@nuxt/devtools/dist/runtime/server",
     "../node_modules/@nuxt/telemetry/runtime/server",
