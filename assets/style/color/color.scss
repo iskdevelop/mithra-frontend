@@ -1,0 +1,33 @@
+// color.scss
+@use 'sass:map';
+@use 'sass:string';
+// Import your palette and tokens files
+@import 'palette';
+@import 'tokens';
+
+// Theme mixin
+@mixin generate-theme-colors() {
+  .nu-color {
+    // Loop through all token categories
+    @each $token-category, $token-values in $tokens {
+      // Find the white theme value as default for each token category
+      $default-value: map.get($token-values, 'theme-white');
+
+      // Set the default value (white theme)
+      --#{$token-category}: #{$default-value};
+
+      // Generate theme-specific variables for each possible theme
+      @each $theme-full-name, $_ in $token-values {
+        // Extract theme name from "theme-white" -> "white"
+        $theme-name: string.slice($theme-full-name, 7);
+
+        // For each theme, set all token categories when that theme is selected
+        &[data-theme="#{$theme-name}"] {
+          // Get the specific value for this token in this theme
+          $theme-value: map.get($token-values, $theme-full-name);
+          --#{$token-category}: #{$theme-value};
+        }
+      }
+    }
+  }
+}
