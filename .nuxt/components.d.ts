@@ -12,7 +12,12 @@ type HydrationStrategies = {
 }
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
-      'NuTipTapEditor': typeof import("../components/nu/TipTapEditor.vue")['default']
+      'Navigation': typeof import("../components/Navigation.vue")['default']
+    'IndexHero': typeof import("../components/index/Hero.vue")['default']
+    'NavLogo': typeof import("../components/nav/Logo.vue")['default']
+    'NavBar': typeof import("../components/nav/NavBar.vue")['default']
+    'NavButton': typeof import("../components/nav/NavButton.vue")['default']
+    'NuTipTapEditor': typeof import("../components/nu/TipTapEditor.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -42,7 +47,12 @@ interface _GlobalComponents {
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
     'NuxtPlotly': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyNuTipTapEditor': LazyComponent<typeof import("../components/nu/TipTapEditor.vue")['default']>
+      'LazyNavigation': LazyComponent<typeof import("../components/Navigation.vue")['default']>
+    'LazyIndexHero': LazyComponent<typeof import("../components/index/Hero.vue")['default']>
+    'LazyNavLogo': LazyComponent<typeof import("../components/nav/Logo.vue")['default']>
+    'LazyNavBar': LazyComponent<typeof import("../components/nav/NavBar.vue")['default']>
+    'LazyNavButton': LazyComponent<typeof import("../components/nav/NavButton.vue")['default']>
+    'LazyNuTipTapEditor': LazyComponent<typeof import("../components/nu/TipTapEditor.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
     'LazyNuxtLayout': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
     'LazyNuxtErrorBoundary': LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']>
@@ -78,6 +88,11 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const Navigation: typeof import("../components/Navigation.vue")['default']
+export const IndexHero: typeof import("../components/index/Hero.vue")['default']
+export const NavLogo: typeof import("../components/nav/Logo.vue")['default']
+export const NavBar: typeof import("../components/nav/NavBar.vue")['default']
+export const NavButton: typeof import("../components/nav/NavButton.vue")['default']
 export const NuTipTapEditor: typeof import("../components/nu/TipTapEditor.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -108,6 +123,11 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const NuxtPlotly: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyNavigation: LazyComponent<typeof import("../components/Navigation.vue")['default']>
+export const LazyIndexHero: LazyComponent<typeof import("../components/index/Hero.vue")['default']>
+export const LazyNavLogo: LazyComponent<typeof import("../components/nav/Logo.vue")['default']>
+export const LazyNavBar: LazyComponent<typeof import("../components/nav/NavBar.vue")['default']>
+export const LazyNavButton: LazyComponent<typeof import("../components/nav/NavButton.vue")['default']>
 export const LazyNuTipTapEditor: LazyComponent<typeof import("../components/nu/TipTapEditor.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>

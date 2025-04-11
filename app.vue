@@ -1,15 +1,17 @@
 <template>
-     <div class="nu-color bg-[--background] text-[--text-primary] w-full h-full" :data-theme="theme">
+     <div class="nu-color text-[--text-primary]" :data-theme="theme">
           <NuxtLayout>
-               <NuxtPage class="h-full"/>
+               <NuxtPage class=""/>
           </NuxtLayout>
      </div>
 </template>
 <script setup lang="ts">
 import {ref} from 'vue';
-const theme = ref('gray100')
+const theme = ref('white')
 </script>
 <style lang="scss">
 @import 'assets/style/color/color.scss';
+@import 'assets/style/transition/transition.scss';
 @include generate-theme-colors();
+@include generate-transformations();
 </style>

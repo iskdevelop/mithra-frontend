@@ -1,0 +1,35 @@
+:root {
+  // --- Easing
+  --nu-standard-productive-easing: cubic-bezier(0.2, 0, 0.38, 0.9);
+  --nu-entrance-productive-easing: cubic-bezier(0, 0, 0.38, 0.9);
+  --nu-exiting-productive-easing: cubic-bezier(0.2, 0, 1, 0.9);
+
+  --nu-standard-expressive-easing: cubic-bezier(0.4, 0.14, 0.3, 1);
+  --nu-entrance-expressive-easing: cubic-bezier(0, 0, 0.3, 1);
+  --nu-exiting-expressice-easing: cubic-bezier(0.2, 0, 1, 0.9);
+
+  // --- Duration
+  --nu-duration-fast-01: 70ms;
+  --nu-duration-fast-02: 110ms;
+  --nu-duration-moderate-01: 150ms;
+  --nu-duration-moderate-02: 240ms;
+  --nu-duration-slow-01: 400ms;
+  --nu-duration-slow-02: 700ms;
+}
+
+$durations: "fast-01", "fast-02", "moderate-01", "moderate-02", "slow-01", "slow-02";
+$easings: "entrance", "standard", "exiting";
+$modes: "expressive", "productive";
+
+
+@mixin generate-transformations($durations: $durations, $easings: $easings, $modes: $modes) {
+  @each $duration in $durations {
+    @each $easing in $easings {
+      @each $mode in $modes {
+        .nu-transition-#{$mode}-#{$easing}-#{$duration} {
+          transition: all var(--nu-duration-#{$duration}) var(--nu-#{$easing}-#{$mode}-easing);
+        }
+      }
+    }
+  }
+}

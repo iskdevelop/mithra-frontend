@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     },
     googleFonts: {
         outputDir: 'assets',
-        stylePath: 'styles/googleFont.css',
+        stylePath: 'style/googleFont.css',
         fontsDir: 'fonts',
         fontsPath: '../fonts',
         families: {
@@ -49,7 +49,7 @@ export default defineNuxtConfig({
         },
     },
     tailwindcss: {
-        cssPath: [`~/assets/styles/tailwind.css`, { injectPosition: 'first' }],
+        cssPath: [`~/assets/style/tailwind.css`, { injectPosition: 'first' }],
         viewer: true,
         exposeConfig: false,
     },
