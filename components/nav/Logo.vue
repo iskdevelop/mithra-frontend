@@ -3,7 +3,7 @@
 </script>
 
 <template>
-     <div class="heading-04 ml-[112px] p-16px
+     <div class="heading-04
      text-[--text-on-color] select-none
      nu-transition-expressive-standard-moderate-02">
           Mithra

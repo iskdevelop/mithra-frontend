@@ -4,33 +4,39 @@ import Logo from "~/components/nav/Logo.vue";
 </script>
 
 <template>
-     <div class="flex flex-row justify-between items-center   p-0 h-64px">
+     <div class="flex flex-row justify-between items-center px-32px h-64px">
           <Logo/>
           <div class="nav-buttons flex flex-row gap-0 h-full">
-               <NavButton>
-                    Home
-               </NavButton>
-               <NavButton>
-                    Docs
-               </NavButton>
-               <NavButton>
-                    About
-               </NavButton>
-               <NavButton>
-                    Contact
-               </NavButton>
-               <NavButton>
-                    Contribute
-               </NavButton>
-
+               <NavButton
+                   text="Home"
+                   link="/"
+               />
+               <NavButton
+                   text="About"
+                   link="/about"
+               />
+               <NavButton
+                   text="contact"
+                   link="/contact"
+               />
+               <NavButton
+                   text="docs"
+                   link="/docs"
+               />
+               <NavButton
+                   text="contribute"
+                   link="/contribute"
+               />
           </div>
-          <div class="nav-auth-buttons flex flex-row gap-0 h-full pr-[112px]">
-               <NavButton>
-                    Login
-               </NavButton>
-               <NavButton>
-                    Sign Up
-               </NavButton>
+          <div class="nav-auth-buttons flex flex-row gap-0 h-full ">
+               <NavButton
+                   text="Sign In"
+                   link="/auth/login"
+               />
+               <NavButton
+                   text="Sign Up"
+                   link="/auth/signup"
+               />
           </div>
      </div>
 </template>

@@ -49,6 +49,18 @@ $tokens: (
                 theme-gray90: $nu-orion-50,
                 theme-gray100: $nu-orion-50
         ),
+        background-black: (
+                theme-white: $nu-black,
+                theme-gray10: $nu-black,
+                theme-gray90: $nu-black,
+                theme-gray100: $nu-black,
+        ),
+        background-white: (
+                theme-white: $nu-white,
+                theme-gray10: $nu-white,
+                theme-gray90: $nu-white,
+                theme-gray100: $nu-white,
+        ),
   /* Layer Tokens */
         layer-01 :(
                 theme-white: $nu-gray-10,

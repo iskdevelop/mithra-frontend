@@ -1,13 +1,15 @@
 <template>
-     <div class="ba">
-          <!-- -->
-          <H1> hello brother</H1>
-     </div>
+     <IndexHero/>
 </template>
-<script setup lang="ts">
 
+<script setup lang="ts">
+import Hero from "~/components/index/Hero.vue";
+
+definePageMeta({
+     layout: 'home'
+})
 </script>
+
 <style lang="scss">
-@use "assets/style/color/palette";
 
 </style>
