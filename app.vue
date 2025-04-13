@@ -1,13 +1,13 @@
 <template>
      <div class="nu-color text-[--text-primary]" :data-theme="theme">
           <NuxtLayout>
-               <NuxtPage class=""/>
+               <NuxtPage/>
           </NuxtLayout>
      </div>
 </template>
 <script setup lang="ts">
 import {ref} from 'vue';
-const theme = ref('white')
+const theme = ref('gray100')
 </script>
 <style lang="scss">
 @import 'assets/style/color/color.scss';

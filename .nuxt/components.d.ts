@@ -13,7 +13,9 @@ type HydrationStrategies = {
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
       'Navigation': typeof import("../components/Navigation.vue")['default']
+    'IndexGlassSection': typeof import("../components/index/GlassSection.vue")['default']
     'IndexHero': typeof import("../components/index/Hero.vue")['default']
+    'IndexSectionTemplate': typeof import("../components/index/SectionTemplate.vue")['default']
     'NavLogo': typeof import("../components/nav/Logo.vue")['default']
     'NavBar': typeof import("../components/nav/NavBar.vue")['default']
     'NavButton': typeof import("../components/nav/NavButton.vue")['default']
@@ -48,7 +50,9 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
     'NuxtPlotly': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyNavigation': LazyComponent<typeof import("../components/Navigation.vue")['default']>
+    'LazyIndexGlassSection': LazyComponent<typeof import("../components/index/GlassSection.vue")['default']>
     'LazyIndexHero': LazyComponent<typeof import("../components/index/Hero.vue")['default']>
+    'LazyIndexSectionTemplate': LazyComponent<typeof import("../components/index/SectionTemplate.vue")['default']>
     'LazyNavLogo': LazyComponent<typeof import("../components/nav/Logo.vue")['default']>
     'LazyNavBar': LazyComponent<typeof import("../components/nav/NavBar.vue")['default']>
     'LazyNavButton': LazyComponent<typeof import("../components/nav/NavButton.vue")['default']>
@@ -89,7 +93,9 @@ declare module 'vue' {
 }
 
 export const Navigation: typeof import("../components/Navigation.vue")['default']
+export const IndexGlassSection: typeof import("../components/index/GlassSection.vue")['default']
 export const IndexHero: typeof import("../components/index/Hero.vue")['default']
+export const IndexSectionTemplate: typeof import("../components/index/SectionTemplate.vue")['default']
 export const NavLogo: typeof import("../components/nav/Logo.vue")['default']
 export const NavBar: typeof import("../components/nav/NavBar.vue")['default']
 export const NavButton: typeof import("../components/nav/NavButton.vue")['default']
@@ -124,7 +130,9 @@ export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const NuxtPlotly: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyNavigation: LazyComponent<typeof import("../components/Navigation.vue")['default']>
+export const LazyIndexGlassSection: LazyComponent<typeof import("../components/index/GlassSection.vue")['default']>
 export const LazyIndexHero: LazyComponent<typeof import("../components/index/Hero.vue")['default']>
+export const LazyIndexSectionTemplate: LazyComponent<typeof import("../components/index/SectionTemplate.vue")['default']>
 export const LazyNavLogo: LazyComponent<typeof import("../components/nav/Logo.vue")['default']>
 export const LazyNavBar: LazyComponent<typeof import("../components/nav/NavBar.vue")['default']>
 export const LazyNavButton: LazyComponent<typeof import("../components/nav/NavButton.vue")['default']>
