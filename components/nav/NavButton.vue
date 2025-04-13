@@ -1,20 +1,32 @@
 <template>
      <NuxtLink :to="link">
           <div
-              class="w-full h-full flex flex-row gap-32px p-16px select-none
-         text-nowrap hover:text-[--text-black] hover:bg-[--layer-01] text-[--text-white]
-         nu-transition-productive-entrance-moderate-01 active:bg-[--layer-02] items-center
-">
-               {{ text }}
+              class="
+              w-full h-full
+              flex flex-row
+              gap-32px p-8px
+              select-none text-nowrap
+              nu-transition-productive-standard-moderate-01
+
+"
+              :class="isActive ? 'text-[--text-brand] ' : 'text-[--text-white] hover:text-[--text-brand]'"
+          >
+               <slot/>
           </div>
      </NuxtLink>
 </template>
+
 <script setup lang="ts">
+import {useRoute} from 'vue-router'
+
 const props = defineProps<{
-     text: String,
      link: String
 }>()
+
+const route = useRoute()
+const isActive = computed(() => route.path === props.link)
 </script>
+
 <style scoped lang="scss">
 
 </style>
