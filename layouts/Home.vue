@@ -1,8 +1,8 @@
 <template>
      <div class="home bg-[--background] h-full">
-          <NavBar class="z-20"/>
+          <Navigation/>
           <slot/>
-
+          <Footer/>
      </div>
 </template>
 <script setup lang="ts">
