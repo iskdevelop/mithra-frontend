@@ -1,0 +1,9 @@
+<svg width="440" height="120" viewBox="0 0 440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M400 0V40H440V0H400Z" fill="currentColor"/>
+<path d="M400 80V120H440V80H400Z" fill="currentColor"/>
+<path d="M0 0V120H120V0H0Z" fill="currentColor"/>
+<path d="M160 80V120H200V80H160Z" fill="currentColor"/>
+<path d="M200 40V80H240V40H200Z" fill="currentColor"/>
+<path d="M240 0V40H280V0H240Z" fill="currentColor"/>
+<path d="M400 40H360V0H320V120H360V80H400V40Z" fill="currentColor"/>
+</svg>
