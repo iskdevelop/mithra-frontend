@@ -6,7 +6,7 @@ import Logo from "~/components/nav/Logo.vue";
 <template>
      <div class="flex flex-row
      bg-[--background-black]
-     fixed top-0 w-full left-0
+     w-full
      justify-between  pl-32px pr-64px py-32px h-64px
      items-center nu-transition-productive-standard-moderate-01">
           <Logo/>

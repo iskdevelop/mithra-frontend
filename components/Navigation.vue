@@ -1,10 +1,8 @@
 <script setup lang="ts">
-
-import {useDevice} from "#imports";
 </script>
 
 <template>
-     <div class="">
+     <div class="z-20">
           <NavBar/>
      </div>
 </template>
