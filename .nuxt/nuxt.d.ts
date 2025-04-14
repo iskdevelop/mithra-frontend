@@ -7,6 +7,7 @@
 /// <reference types="nuxt-svgo-loader" />
 /// <reference types="nuxt-plotly" />
 /// <reference types="@nuxtjs/tailwindcss" />
+/// <reference types="nuxt-svgo" />
 /// <reference types="@nuxt/devtools" />
 /// <reference types="@nuxt/telemetry" />
 /// <reference path="types/builder-env.d.ts" />

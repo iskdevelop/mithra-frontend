@@ -20,6 +20,7 @@
     "@vueuse/nuxt": "^13.1.0",
     "nuxt": "^3.16.2",
     "nuxt-plotly": "^1.0.14",
+    "nuxt-svgo": "^4.0.17",
     "nuxt-svgo-loader": "^0.5.0",
     "nuxt-tiptap-editor": "^2.1.4",
     "pinia": "^3.0.1",

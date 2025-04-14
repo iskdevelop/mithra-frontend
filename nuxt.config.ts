@@ -12,6 +12,7 @@ export default defineNuxtConfig({
       'nuxt-plotly',
       '@nuxtjs/tailwindcss',
       '@vueuse/nuxt',
+      'nuxt-svgo',
     ],
     css: [
         '~/assets/style/tailwindcss.css',
@@ -54,4 +55,7 @@ export default defineNuxtConfig({
         viewer: true,
         exposeConfig: false,
     },
+    svgo: {
+        autoImportPath: './assets/'
+    }
 });
