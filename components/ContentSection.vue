@@ -6,7 +6,7 @@
      gap-16px
      text-[--text-on-color]
      hover:text-[--text-primary]
-     bg-[--background-selected]
+     bg-[--background]
      hover:bg-[--background]
       justify-center
      h-full w-full
