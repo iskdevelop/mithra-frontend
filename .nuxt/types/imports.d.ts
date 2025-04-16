@@ -25,7 +25,7 @@ declare global {
   const TiptapNode: typeof import('../../node_modules/@tiptap/core')['Node']
   const TiptapOrderedList: typeof import('../../node_modules/@tiptap/extension-ordered-list')['OrderedList']
   const TiptapParagraph: typeof import('../../node_modules/@tiptap/extension-paragraph')['Paragraph']
-  const TiptapStarterKit: typeof import('../../node_modules/@tiptap/starter-kit')['StarterKit']
+  const TiptapStarterKit: typeof import('@tiptap/starter-kit')['StarterKit']
   const TiptapStrike: typeof import('../../node_modules/@tiptap/extension-strike')['Strike']
   const TiptapText: typeof import('../../node_modules/@tiptap/extension-text')['Text']
   const abortNavigation: typeof import('../../node_modules/nuxt/dist/app/composables/router')['abortNavigation']
@@ -457,7 +457,7 @@ declare module 'vue' {
     readonly TiptapNode: UnwrapRef<typeof import('../../node_modules/@tiptap/core')['Node']>
     readonly TiptapOrderedList: UnwrapRef<typeof import('../../node_modules/@tiptap/extension-ordered-list')['OrderedList']>
     readonly TiptapParagraph: UnwrapRef<typeof import('../../node_modules/@tiptap/extension-paragraph')['Paragraph']>
-    readonly TiptapStarterKit: UnwrapRef<typeof import('../../node_modules/@tiptap/starter-kit')['StarterKit']>
+    readonly TiptapStarterKit: UnwrapRef<typeof import('@tiptap/starter-kit')['StarterKit']>
     readonly TiptapStrike: UnwrapRef<typeof import('../../node_modules/@tiptap/extension-strike')['Strike']>
     readonly TiptapText: UnwrapRef<typeof import('../../node_modules/@tiptap/extension-text')['Text']>
     readonly abortNavigation: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/router')['abortNavigation']>

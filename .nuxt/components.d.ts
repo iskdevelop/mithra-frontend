@@ -12,7 +12,10 @@ type HydrationStrategies = {
 }
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
-      'ContentSection': typeof import("../components/ContentSection.vue")['default']
+      'Canvas': typeof import("../components/Canvas/Canvas.vue")['default']
+    'CanvasEditMode': typeof import("../components/Canvas/EditMode.vue")['default']
+    'CanvasPresentationMode': typeof import("../components/Canvas/PresentationMode.vue")['default']
+    'ContentSection': typeof import("../components/ContentSection.vue")['default']
     'Footer': typeof import("../components/Footer.vue")['default']
     'Navigation': typeof import("../components/Navigation.vue")['default']
     'AboutSections': typeof import("../components/about/AboutSections.vue")['default']
@@ -27,7 +30,6 @@ interface _GlobalComponents {
     'NavLogo': typeof import("../components/nav/Logo.vue")['default']
     'NavBar': typeof import("../components/nav/NavBar.vue")['default']
     'NavButton': typeof import("../components/nav/NavButton.vue")['default']
-    'NuTipTapEditor': typeof import("../components/nu/TipTapEditor.vue")['default']
     'SvgoIcons3dCursorAlt': typeof import("../assets/icons/3d-cursor--alt")['default']
     'SvgoIcons3dCursor': typeof import("../assets/icons/3d-cursor")['default']
     'SvgoIcons3dCurveAutoColon': typeof import("../assets/icons/3d-curve--auto-colon")['default']
@@ -2414,7 +2416,10 @@ interface _GlobalComponents {
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
     'NuxtPlotly': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
-      'LazyContentSection': LazyComponent<typeof import("../components/ContentSection.vue")['default']>
+      'LazyCanvas': LazyComponent<typeof import("../components/Canvas/Canvas.vue")['default']>
+    'LazyCanvasEditMode': LazyComponent<typeof import("../components/Canvas/EditMode.vue")['default']>
+    'LazyCanvasPresentationMode': LazyComponent<typeof import("../components/Canvas/PresentationMode.vue")['default']>
+    'LazyContentSection': LazyComponent<typeof import("../components/ContentSection.vue")['default']>
     'LazyFooter': LazyComponent<typeof import("../components/Footer.vue")['default']>
     'LazyNavigation': LazyComponent<typeof import("../components/Navigation.vue")['default']>
     'LazyAboutSections': LazyComponent<typeof import("../components/about/AboutSections.vue")['default']>
@@ -2429,7 +2434,6 @@ interface _GlobalComponents {
     'LazyNavLogo': LazyComponent<typeof import("../components/nav/Logo.vue")['default']>
     'LazyNavBar': LazyComponent<typeof import("../components/nav/NavBar.vue")['default']>
     'LazyNavButton': LazyComponent<typeof import("../components/nav/NavButton.vue")['default']>
-    'LazyNuTipTapEditor': LazyComponent<typeof import("../components/nu/TipTapEditor.vue")['default']>
     'LazySvgoIcons3dCursorAlt': LazyComponent<typeof import("../assets/icons/3d-cursor--alt")['default']>
     'LazySvgoIcons3dCursor': LazyComponent<typeof import("../assets/icons/3d-cursor")['default']>
     'LazySvgoIcons3dCurveAutoColon': LazyComponent<typeof import("../assets/icons/3d-curve--auto-colon")['default']>
@@ -4822,6 +4826,9 @@ declare module 'vue' {
   export interface GlobalComponents extends _GlobalComponents { }
 }
 
+export const Canvas: typeof import("../components/Canvas/Canvas.vue")['default']
+export const CanvasEditMode: typeof import("../components/Canvas/EditMode.vue")['default']
+export const CanvasPresentationMode: typeof import("../components/Canvas/PresentationMode.vue")['default']
 export const ContentSection: typeof import("../components/ContentSection.vue")['default']
 export const Footer: typeof import("../components/Footer.vue")['default']
 export const Navigation: typeof import("../components/Navigation.vue")['default']
@@ -4837,7 +4844,6 @@ export const IndexSectionTemplate: typeof import("../components/index/SectionTem
 export const NavLogo: typeof import("../components/nav/Logo.vue")['default']
 export const NavBar: typeof import("../components/nav/NavBar.vue")['default']
 export const NavButton: typeof import("../components/nav/NavButton.vue")['default']
-export const NuTipTapEditor: typeof import("../components/nu/TipTapEditor.vue")['default']
 export const SvgoIcons3dCursorAlt: typeof import("../assets/icons/3d-cursor--alt")['default']
 export const SvgoIcons3dCursor: typeof import("../assets/icons/3d-cursor")['default']
 export const SvgoIcons3dCurveAutoColon: typeof import("../assets/icons/3d-curve--auto-colon")['default']
@@ -7224,6 +7230,9 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const NuxtPlotly: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
+export const LazyCanvas: LazyComponent<typeof import("../components/Canvas/Canvas.vue")['default']>
+export const LazyCanvasEditMode: LazyComponent<typeof import("../components/Canvas/EditMode.vue")['default']>
+export const LazyCanvasPresentationMode: LazyComponent<typeof import("../components/Canvas/PresentationMode.vue")['default']>
 export const LazyContentSection: LazyComponent<typeof import("../components/ContentSection.vue")['default']>
 export const LazyFooter: LazyComponent<typeof import("../components/Footer.vue")['default']>
 export const LazyNavigation: LazyComponent<typeof import("../components/Navigation.vue")['default']>
@@ -7239,7 +7248,6 @@ export const LazyIndexSectionTemplate: LazyComponent<typeof import("../component
 export const LazyNavLogo: LazyComponent<typeof import("../components/nav/Logo.vue")['default']>
 export const LazyNavBar: LazyComponent<typeof import("../components/nav/NavBar.vue")['default']>
 export const LazyNavButton: LazyComponent<typeof import("../components/nav/NavButton.vue")['default']>
-export const LazyNuTipTapEditor: LazyComponent<typeof import("../components/nu/TipTapEditor.vue")['default']>
 export const LazySvgoIcons3dCursorAlt: LazyComponent<typeof import("../assets/icons/3d-cursor--alt")['default']>
 export const LazySvgoIcons3dCursor: LazyComponent<typeof import("../assets/icons/3d-cursor")['default']>
 export const LazySvgoIcons3dCurveAutoColon: LazyComponent<typeof import("../assets/icons/3d-curve--auto-colon")['default']>
